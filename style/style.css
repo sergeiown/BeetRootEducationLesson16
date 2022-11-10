@@ -3,6 +3,9 @@
 body {
   background-color: #ffffff;
   user-select: none;
+  width: fit-content;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 img {
@@ -10,34 +13,65 @@ img {
   height: 35px;
 }
 
+h1 {
+  width: 377px;
+  font-family: "Nunito Sans", sans-serif;
+  font-weight: 600;
+  font-size: 40px;
+  line-height: 52px;
+  letter-spacing: 0.2px;
+  color: #16133d;
+}
+
+h3 {
+  width: 108px;
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  text-transform: uppercase;
+  line-height: 21px;
+  color: #7690a8;
+}
+
 /* ⇓ ⇓ ⇓ ⇓ ⇓ header ⇓ ⇓ ⇓ ⇓ ⇓ */
 .header {
-  display: block;
+  display: flex;
   width: auto;
   height: 80px;
   padding: 23px 0;
 }
-.header :only-child {
-  margin: 0px 360px;
-}
 /* ⇧ ⇧ ⇧ ⇧ ⇧ header ⇧ ⇧ ⇧ ⇧ ⇧ */
 
 /* ⇓ ⇓ ⇓ ⇓ ⇓ main ⇓ ⇓ ⇓ ⇓ ⇓ */
+.services {
+  display: flexbox;
+  width: auto;
+}
+
+.cards {
+  display: flex;
+  justify-content: space-between;
+  gap: 15px;
+}
+
+.cards__card-icon {
+  width: 64px;
+  height: 64px;
+  padding: 13px;
+  border: solid 1px #e8f0fc;
+  border-radius: 15px;
+}
 
 /* ⇧ ⇧ ⇧ ⇧ ⇧ main ⇧ ⇧ ⇧ ⇧ ⇧ */
 
 /* ⇓ ⇓ ⇓ ⇓ ⇓ footer ⇓ ⇓ ⇓ ⇓ ⇓ */
 .footer {
-  display: block;
+  display: flexbox;
   width: auto;
   height: 193px;
   margin: 0px auto;
   padding: 23px 0;
   background-color: #16133d;
-}
-
-.footer > * {
-  margin: 0px 360px;
 }
 
 .icons {
