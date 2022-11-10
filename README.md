@@ -10,7 +10,7 @@ _LMS Beetroot Academy progress_
 
 > Секція Services - **вставити SVG код прямо в элемент**, додати hover state.
 >
-> Footer - вставити **іконки використовуючи SVG спрайт**, додати hover state.
+> Footer - **вставити іконки використовуючи SVG спрайт**, додати hover state.
 
 **Екстра:**
 
