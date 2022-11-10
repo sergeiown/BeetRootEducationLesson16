@@ -115,6 +115,7 @@ body {
 .footer {
   background-color: transparent;
   display: flex;
+  flex-direction: column;
   width: auto;
   height: 193px;
   margin: 0px auto;
@@ -127,11 +128,35 @@ body {
 }
 
 .icons {
-  padding: 0;
+  display: flex;
+  justify-content: flex-start;
+  gap: 15px;
+  padding: 40px 0;
   list-style: none;
 }
 
 .icons__icon {
-  display: inline-block;
+  display: flex;
+  background: #efeef3;
+  border-radius: 5px;
 }
+
+.icons__icon-item {
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  padding: 9px;
+  transition: 0.3s;
+  fill: #0d0d0d;
+}
+
+.icons__icon-item:hover {
+  fill: #3db370;
+  cursor: pointer;
+}
+
+.icons__icon-path {
+  fill: inherit;
+}
+
 /* ⇧ ⇧ ⇧ ⇧ ⇧ footer ⇧ ⇧ ⇧ ⇧ ⇧ */ ;
