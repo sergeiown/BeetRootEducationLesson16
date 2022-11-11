@@ -1,7 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@600&family=Roboto:wght@400;500&display=swap");
 
 body {
-  background-color: #16133d;
+  background-color: #ffffff;
   user-select: none;
   width: fit-content;
   height: fit-content;
@@ -11,9 +11,7 @@ body {
 
 /* ⇓ ⇓ ⇓ ⇓ ⇓ header ⇓ ⇓ ⇓ ⇓ ⇓ */
 .header {
-  background-color: #ffffff;
   display: flex;
-  width: auto;
   height: 80px;
   padding: 23px 135px;
 }
@@ -26,11 +24,10 @@ body {
 
 /* ⇓ ⇓ ⇓ ⇓ ⇓ main ⇓ ⇓ ⇓ ⇓ ⇓ */
 .services {
-  background-color: #ffffff;
   display: flex;
   flex-direction: column;
-  width: auto;
   padding: 0 135px;
+  margin: 40px 0 90px 0;
 }
 
 .services__title h1 {
@@ -70,6 +67,18 @@ body {
   border: 1px solid #e5eaf4;
   border-radius: 8px;
   padding: 40px;
+  transition: 0.3s;
+}
+
+.cards__card:hover {
+  cursor: pointer;
+  border: 1px solid #3db370;
+}
+.cards__card:hover .cards__card-icon-body {
+  fill: #e1f4f5;
+}
+.cards__card:hover .cards__card-icon-border {
+  fill: #52c29d;
 }
 
 .cards__card-icon {
@@ -113,13 +122,12 @@ body {
 
 /* ⇓ ⇓ ⇓ ⇓ ⇓ footer ⇓ ⇓ ⇓ ⇓ ⇓ */
 .footer {
-  background-color: transparent;
+  background-color: #16133d;
   display: flex;
   flex-direction: column;
-  width: auto;
-  height: 193px;
+  height: fit-content;
   margin: 0px auto;
-  padding: 23px 135px;
+  padding: 23px 135px 0;
 }
 
 .footer img {
@@ -132,6 +140,7 @@ body {
   justify-content: flex-start;
   gap: 15px;
   padding: 40px 0;
+  margin: 0;
   list-style: none;
 }
 
